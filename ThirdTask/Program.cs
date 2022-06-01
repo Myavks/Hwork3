@@ -17,12 +17,9 @@ namespace ThirdTask
                     k = true;
                     break;
                 }
-                else
-                {
-                    i++;
-                }
+                i++;
             }
-            if (k == true) Console.WriteLine($"Число {a} не является простым");
+            if (k) Console.WriteLine($"Число {a} не является простым");
             else Console.WriteLine($"Число {a} является простым");
             Console.ReadKey();
         }
